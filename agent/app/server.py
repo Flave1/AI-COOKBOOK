@@ -145,7 +145,8 @@ async def agent(request: Request):
             if thread_id in active_connections:
                 del active_connections[thread_id]
 
-    return EventSourceResponse(generate_events())
+    all_event = generate_events()
+    return EventSourceResponse(all_event)
 
 
 def main():

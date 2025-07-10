@@ -1,6 +1,6 @@
 ![Header image](./images/header.jpeg)
 
-# AI cookbook
+# AI cookbook By Emmanuel Favour
 
 This repository contains a set of use cases demonstrating how to build AI-featured applications.
 
